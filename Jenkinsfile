@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test_Stage') {
       steps {
-        git 'https://github.com/aroziyev-r7/Jenkins-AR'
+        git(url: 'https://github.com/aroziyev-r7/Jenkins-AR', branch: 'Jenkin_branch')
       }
     }
 
